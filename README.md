@@ -105,12 +105,10 @@ Isso deve retornar na parte de baixo a tabela e dados inseridos. Estou usando ca
 A estrutura das pastas é assim:
 
 ```text
-gopostgres {
-	dbconfig {
-		driverConfig.go
-	}
-	main.go
-}
+├── gopostgres
+|	 └── dbconfig
+|		 └── driverConfig.go
+└── main.go
 ```	
 
 Você pode escolher o nome que for melhor, mas eu fiz uma pasta diferente para o arquivo *driverConfig.go* pois vou usá-lo como pacote e importar no *main.go* mais a frente.
